@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'RecruitSite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'alf_schema',
+        'USER': 'AlexZab@zabolotin-mysql',
+        'PASSWORD': '!q2w3e4r',
+        'HOST': 'zabolotin-mysql.mysql.database.azure.com',
+        'PORT': ''
     }
 }
 
