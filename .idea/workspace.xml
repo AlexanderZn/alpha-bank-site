@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1151bc15-bfe5-4577-a1af-383d6966ab11" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/models.py" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/models.py" />
+      <change beforePath="$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py" afterPath="$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RecruitSite/mainApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/RecruitSite/mainApp/views.py" />
         <option value="$PROJECT_DIR$/RecruitSite/mainApp/templates/header.html" />
         <option value="$PROJECT_DIR$/RecruitSite/mainApp/templates/index.html" />
-        <option value="$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py" />
         <option value="$PROJECT_DIR$/RecruitSite/mainApp/models.py" />
+        <option value="$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py" />
       </list>
     </option>
   </component>
@@ -274,6 +274,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518798553646</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding 'Specialization' to models">
+      <created>1519562265909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519562265910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -300,6 +308,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding 'Specialization' to models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding 'Specialization' to models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -532,14 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RecruitSite/mainApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -547,6 +551,14 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RecruitSite/RecruitSite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

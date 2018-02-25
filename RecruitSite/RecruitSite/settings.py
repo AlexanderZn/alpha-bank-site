@@ -81,6 +81,7 @@ DATABASES = {
         'USER': 'AlexZab@zabolotin-mysql',
         'PASSWORD': '!q2w3e4r',
         'HOST': 'zabolotin-mysql.mysql.database.azure.com',
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         'PORT': ''
     }
 }
