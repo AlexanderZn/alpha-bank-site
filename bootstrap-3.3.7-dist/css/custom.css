@@ -1,0 +1,23 @@
+.red-block {
+    background-color: RGB(239, 49, 36); /* Цвет фона под заголовком */
+   }
+
+.dark-block {
+    background-color: RGB(0, 0, 0); /* Цвет фона под заголовком */
+   }
+
+.grey-block {
+    background-color: RGB(209, 213, 216); /* Цвет фона под заголовком */
+   }
+   
+ .footer1 {
+    border: solid 1px silver;  
+    
+  position: relative;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    /* Фиксированная высота футера */
+    height: 200px;
+   
+}
