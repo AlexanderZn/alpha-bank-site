@@ -31,7 +31,7 @@ def personal(request, num):
 def filtering(request):
     
     
-
+    # Here's an error
     story = Story.objects.filter(person=Person.objects.filter(male=request.POST.get('male')),
                                  subdivision=Subdivision.objects.filter(branch=Branch.objects.filter(company=Company.objects.filter(id=request.POST.get('company')))),
                                  specialization=Specialization.objects.filter(id=request.POST.get('specialization')))

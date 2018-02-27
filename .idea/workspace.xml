@@ -1,124 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1151bc15-bfe5-4577-a1af-383d6966ab11" name="Default" comment="Self-work filter (does not work)">
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-social.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-theme.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-bg-blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-bg-pink.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-icon-comment.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-icon-photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/custom-icon-retweet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/email.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/linkedin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/pinterest.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/podcast.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/share_this.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/star.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/twitter_bird.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/vimeo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_linkedin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_pinterest.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_podcast.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_share_this.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_star.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_twitter_bird.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/white_vimeo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/images/youtube.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/css-social-buttons/social-buttons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/custom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/img/alpha_logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/npm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/templates/mainApp/header.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/templates/mainApp/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/templates/mainApp/person.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RecruitSite/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources-0.0.0.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/CacheControl-0.11.5-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/chardet-2.3.0-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/distlib-0.2.2-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/html5lib-0.999-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/packaging-16.6-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/pip-8.1.1-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/progress-1.2-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/pyparsing-2.0.3-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/requests-2.9.1-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/setuptools-20.7.0-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/six-1.10.0-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/urllib3-1.13.1-py2.py3-none-any.whl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/venv/share/python-wheels/wheel-0.29.0-py2.py3-none-any.whl" />
+    <list default="true" id="1151bc15-bfe5-4577-a1af-383d6966ab11" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/admin.py" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/admin.py" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/models.py" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/models.py" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-grid.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-reboot.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/css/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.bundle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/static/js/bootstrap.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/templates/header.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/templates/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/urls.py" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/RecruitSite/mainApp/views.py" afterPath="$PROJECT_DIR$/RecruitSite/mainApp/views.py" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" afterPath="$PROJECT_DIR$/venv/bin/activate" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" afterPath="$PROJECT_DIR$/venv/bin/activate.csh" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" afterPath="$PROJECT_DIR$/venv/bin/activate.fish" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" afterPath="$PROJECT_DIR$/venv/bin/easy_install" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.5" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.5" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" afterPath="$PROJECT_DIR$/venv/bin/pip" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" afterPath="$PROJECT_DIR$/venv/bin/pip3" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.5" afterPath="$PROJECT_DIR$/venv/bin/pip3.5" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python-config" afterPath="$PROJECT_DIR$/venv/bin/python-config" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/wheel" afterPath="$PROJECT_DIR$/venv/bin/wheel" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-9.0.1.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/__about__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/markers.py" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/pyparsing.py" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/extern/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/extern/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-38.5.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-38.5.1.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,8 +76,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RecruitSite/mainApp/templates/mainApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="82" column="41" lean-forward="true" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+            <state relative-caret-position="544">
+              <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding>
                 <element signature="n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -411,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519562265910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Self-work filter (does not work)">
+      <created>1519757409211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519757409211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -426,15 +317,15 @@
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1537" height="817" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23127036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23478836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33088234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RecruitSite/mainApp/templates/mainApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="82" column="41" lean-forward="true" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+        <state relative-caret-position="544">
+          <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding>
             <element signature="n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
