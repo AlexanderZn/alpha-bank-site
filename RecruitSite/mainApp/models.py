@@ -7,12 +7,16 @@ class Sphere_Company(models.Model):
 
     name = models.CharField(max_length=45)
 
+    def __str__(self):
+        return str(self.name)
 
 class Company(models.Model):
 
     sphere = models.ForeignKey(Sphere_Company, on_delete=models.CASCADE)
     name = models.CharField(max_length=45)
 
+    def __str__(self):
+        return str(self.name)
 
 class Branch(models.Model):
 
@@ -20,16 +24,25 @@ class Branch(models.Model):
     address = models.CharField(max_length=100)
     info = models.CharField(max_length=100, default='Person')
 
+    def __str__(self):
+        return str(self.address)
+
 
 class Subdivision(models.Model):
 
     branch = models.ForeignKey(Branch, on_delete=models.CASCADE)
     name = models.CharField(max_length=45)
 
+    def __str__(self):
+        return str(self.name)
+
 
 class Sphere_Person(models.Model):
 
     name = models.CharField(max_length=45)
+
+    def __str__(self):
+        return str(self.name)
 
 
 class Specialization(models.Model):
@@ -37,6 +50,8 @@ class Specialization(models.Model):
     name = models.CharField(max_length=45)
     sphere = models.ForeignKey(Sphere_Person, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return str(self.name)
 
 class Person(models.Model):
 
@@ -52,7 +67,13 @@ class Person(models.Model):
     comments = models.CharField(max_length=100)
 
     def male_bool(self):
-        return str(self.male)
+        if self.male == True:
+            return 'М'
+        else:
+            return 'Ж'
+
+    def __str__(self):
+        return str(self.lastname) + str(self.name)
 
 
 class Story(models.Model):
@@ -62,4 +83,6 @@ class Story(models.Model):
     person = models.ForeignKey(Person, on_delete=models.CASCADE)
     date_update = models.DateTimeField(default=timezone.now)
 
-
+    def __str__(self):
+        return str(self.person.lastname) + str(self.person.name) + \
+               ":" + str(self.subdivision.branch.company.name)

@@ -16,3 +16,5 @@ admin.site.register(Subdivision)
 admin.site.register(Person)
 
 admin.site.register(Story)
+
+admin.site.register(Specialization)

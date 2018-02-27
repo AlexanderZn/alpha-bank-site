@@ -5,9 +5,40 @@ from .models import *
 
 def index(request):
 
-    persons = Person.objects.all()
+    stories = Story.objects.all()
+
     context = {
-        'persons': persons
+        'stories': stories
     }
 
-    return render(request, 'index.html', context)
+    return render(request, 'mainApp/header.html', context)
+
+
+def personal(request, num):
+
+    story = Story.objects.get(person=Person.objects.get(id=num))
+
+    job_history = Story.objects.filter(subdivision=story.subdivision, specialization=story.specialization)
+
+    context = {
+        'story': story,
+        'jobs': job_history
+    }
+
+    return render(request, 'mainApp/person.html/', context)
+
+
+def filtering(request):
+    
+    
+
+    story = Story.objects.filter(person=Person.objects.filter(male=request.POST.get('male')),
+                                 subdivision=Subdivision.objects.filter(branch=Branch.objects.filter(company=Company.objects.filter(id=request.POST.get('company')))),
+                                 specialization=Specialization.objects.filter(id=request.POST.get('specialization')))
+
+
+    context = {
+        'story': story
+    }
+
+    return render(request, 'mainApp/header.html', context)

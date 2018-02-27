@@ -1,4 +1,4 @@
-#!/home/eugene/AlphaBank/venv/bin/python
+#!/home/eugene/AlphaBank/alpha-bank-site/venv/bin/python
 
 import sys
 import getopt
