@@ -65,7 +65,7 @@
         </div>
 
         <div class="col-md-3 grey-block" style="position:  relative;right: 0px;">
-            <form action="filtering" method="post">
+            <form action="filtering" method="get">
                 {% csrf_token %}
                 <br>
                 Пол:
@@ -80,7 +80,7 @@
                     </label>
                 </div>
                 <div class="radio-inline">
-                    <label> <input type="radio" name="male" id="some_male" value="True and False" checked="checked">
+                    <label> <input type="radio" name="male" id="some_male" checked="checked">
                         Любой
                     </label>
                 </div>
@@ -126,10 +126,10 @@
 
                 Компания:
                 <select class="form-control" name="company" style="height:30px">
-                    <option />
-                    {% for story in stories %}
-                    <option value="{{ story.subdivision.branch.company.id }}">
-                        {{ story.subdivision.branch.company.name }}
+                    <option disabled selected value />
+                    {% for data in form_data %}
+                    <option value="{{ data.subdivision.branch.company.id }}">
+                        {{ data.subdivision.branch.company.name }}
                     </option>
                     {% endfor %}
                 </select>
@@ -137,10 +137,10 @@
 
                 Сфера:
                 <select class="form-control" name="sphere" style="height:30px">
-                    <option />
-                    {% for story in stories %}
-                    <option value="{{ story.specialization.sphere.id }}">
-                        {{ story.specialization.sphere.name }}
+                    <option disabled selected value />
+                    {% for data in form_data%}
+                    <option value="{{ data.specialization.sphere.id }}">
+                        {{ data.specialization.sphere.name }}
                     </option>
                     {% endfor %}
                 </select>
@@ -148,10 +148,10 @@
 
                 Специализация:
                 <select class="form-control" name="specialization" style="height:30px">
-                    <option />
-                    {% for story in stories %}
-                    <option value="{{ story.specialization.id }}">
-                        {{ story.specialization.name }}
+                    <option disabled selected value />
+                    {% for data in form_data %}
+                    <option value="{{ data.specialization.id }}">
+                        {{ data.specialization.name }}
                     </option>
                     {% endfor %}
                 </select>

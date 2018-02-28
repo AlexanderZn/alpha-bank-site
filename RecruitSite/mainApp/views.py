@@ -8,7 +8,8 @@ def index(request):
     stories = Story.objects.all()
 
     context = {
-        'stories': stories
+        'stories': stories,
+        'form_data': stories
     }
 
     return render(request, 'mainApp/header.html', context)
@@ -16,12 +17,12 @@ def index(request):
 
 def personal(request, num):
 
-    story = Story.objects.get(person=Person.objects.get(id=num))
+    stories = Story.objects.get(person=Person.objects.get(id=num))
 
     job_history = Story.objects.filter(subdivision=story.subdivision, specialization=story.specialization)
 
     context = {
-        'story': story,
+        'stories': stories,
         'jobs': job_history
     }
 
@@ -31,14 +32,23 @@ def personal(request, num):
 def filtering(request):
     
     
-    # Here's an error
-    story = Story.objects.filter(person=Person.objects.filter(male=request.POST.get('male')),
-                                 subdivision=Subdivision.objects.filter(branch=Branch.objects.filter(company=Company.objects.filter(id=request.POST.get('company')))),
-                                 specialization=Specialization.objects.filter(id=request.POST.get('specialization')))
+    # Here's an error 
+    #stories = Story.objects.filter(person=Person.objects.filter(male=request.GET.get('male')),
+    #                            subdivision=Subdivision.objects.filter(branch=Branch.objects.filter(company=Company.objects.get(id=request.GET.get('company')))),
+    #                            specialization=Specialization.objects.get(id=request.GET.get('specialization')))
+
+    stories = Story.objects.filter(person__male=request.GET.get('male'),
+                                   subdivision__branch__company__id=request.GET.get('company', None),
+                                   specialization__sphere__id=request.GET.get('sphere', None),
+                                   specialization__id=request.GET.get('specialization', None))
+
+    form_data = Story.objects.all()
+
 
 
     context = {
-        'story': story
+        'stories': stories,
+        'form_data': form_data
     }
 
     return render(request, 'mainApp/header.html', context)
